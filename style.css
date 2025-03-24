@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: rgba(26,26,29,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 155px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#imglogonav{
+    width: 350px;
+}
+
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.navIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navIcons img{
+    width: 84px;
+}
