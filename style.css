@@ -99,3 +99,20 @@ header{
     font-size: 25px;
     margin-left: 50px;
 }
+#divicon{
+    height: 230px;
+    background-color: antiquewhite; 
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+#dicon img{
+    height: 120px;
+}
+#dicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
