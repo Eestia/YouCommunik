@@ -88,6 +88,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 #secteclo img{
     height: 280px;
     margin-right: 190px;
@@ -99,14 +100,53 @@ header{
     font-size: 25px;
     margin-left: 50px;
 }
+#divevo{
+    font-size: 25px;
+    margin-left: 50px;
+    display: flex;
+}
+#divenvol{
+    font-size: 25px;
+    display: flex;
+}
+#divenvol img{
+    margin-left: 140px;
+}
+#divenvol p{
+    font-size: 24px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+#divevo img{
+    height: 280px;
+    margin-right: 270px;
+}
 #divicon{
     height: 230px;
-    background-color: antiquewhite; 
+    background-color: rgba(234,227,214,255); 
     display: flex;
     gap: 150px;
     align-items: center;
     justify-content: center;
 }
+#divicon2{
+    background-color: rgba(234,227,214,255); 
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#divicon2 > div:first-of-type{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+#divicon2 > div:last-of-type{
+    margin-bottom: 30px;
+}
+
 #dicon img{
     height: 120px;
 }
@@ -115,4 +155,48 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+footer{
+    background-color: rgba(57,58,59,255);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
+#foot1 {
+    display: flex;
+    gap: 20px;
+}
+#foot2 {
+    display: flex;
+    gap: 20px;
+}
+#foot3 {
+    display: flex;
+    gap: 20px;
+}
+#foot1 img{
+    width: 60px;
+}
+#foot2 img{
+    width: 60px;
+}
+#foot3 img{
+    width: 60px;
+}
+#cgv{
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+footer section div div p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
 }
