@@ -69,7 +69,33 @@ header{
     font-weight: 400;
     margin: 0;
 }
-#diveclo h2{
-    font-size: 50px
-    
+#secteclo h2{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 100px;
+    background-color:rgba(51,77,92,255) ;
+    color: white;
+    font-weight: 400;
+}
+#secteclo{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#secteclo img{
+    height: 280px;
+    margin-right: 190px;
+}
+#diveclo{
+    display: flex;
+}
+#diveclo p{
+    font-size: 25px;
+    margin-left: 50px;
 }
